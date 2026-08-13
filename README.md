@@ -109,7 +109,31 @@ The FMCW processing pipeline is:
 ↓
 
 **Distance Estimation**
+## Experimental Setup
 
+The radar prototype was implemented using a single ADALM-Pluto SDR
+connected to two log-periodic antennas. One antenna was configured
+for transmission and the other for reception.
+
+![Hardware Setup](results/hardware_setup.png)
+
+## GNU Radio Implementation
+
+### Velocity Estimation Flowgraph
+
+![Velocity Flowgraph](results/velocity_flowgraph.png)
+
+The velocity-processing chain performs signal generation,
+frequency shifting, conjugate multiplication, phase-based Doppler
+detection, and velocity calculation.
+
+### Distance Estimation Flowgraph
+
+![Distance Flowgraph](results/distance_flowgraph.png)
+
+The FMCW processing chain generates the chirp, mixes the transmitted
+and received signals, applies filtering and FFT processing, and
+extracts the beat frequency for distance estimation.
 ## My Contribution
 
 I worked mainly on the radar signal-processing implementation and GNU Radio flowgraphs.
