@@ -174,20 +174,20 @@ The velocity measurement experiment demonstrates real-time Doppler-based velocit
 The project also evaluates the radar processing chain under different channel conditions and demonstrates the relationship between Doppler frequency and target velocity.
 
 ## Key Features
--Real-time SDR-based radar processing
--ADALM-Pluto hardware implementation
--CW Doppler velocity estimation
--Phase-based Doppler frequency estimation
--FMCW distance estimation
--GNU Radio flowgraph implementation
--Python-based signal processing
+- Real-time SDR-based radar processing
+- ADALM-Pluto hardware implementation
+- CW Doppler velocity estimation
+- Phase-based Doppler frequency estimation
+- FMCW distance estimation
+- GNU Radio flowgraph implementation
+- Python-based signal processing
 
 ## Future Improvements
--Improve velocity estimation under multipath conditions
--Perform systematic measurements at different target velocities
--Integrate velocity and distance measurements into a unified hardware-tested flowgraph
--Improve real-time visualization
--Evaluate the system with different antenna configurations and target types
+- Improve velocity estimation under multipath conditions
+- Perform systematic measurements at different target velocities
+- Integrate velocity and distance measurements into a unified hardware-tested flowgraph
+- Improve real-time visualization
+- Evaluate the system with different antenna configurations and target types
 
 ## Repository Structure
 
