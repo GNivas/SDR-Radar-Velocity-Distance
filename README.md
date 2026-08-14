@@ -33,8 +33,6 @@ The ADALM-Pluto SDR was connected to two log-periodic antennas:
 
 The target was moved toward and away from the radar setup, producing a Doppler frequency shift in the received signal.
 
-![Hardware Setup](results/hardware_setup.jpg)
-
 ## Methodology
 
 ### 1. Velocity Estimation
@@ -109,19 +107,12 @@ The FMCW processing pipeline is:
 ↓
 
 **Distance Estimation**
-## Experimental Setup
-
-The radar prototype was implemented using a single ADALM-Pluto SDR
-connected to two log-periodic antennas. One antenna was configured
-for transmission and the other for reception.
-
-![Hardware Setup](results/hardware_setup.png)
 
 ## GNU Radio Implementation
 
 ### Velocity Estimation Flowgraph
 
-![Velocity Flowgraph](results/velocity_flowgraph.png)
+![Velocity Flowgraph](results/Velocity_flowgraph.png)
 
 The velocity-processing chain performs signal generation,
 frequency shifting, conjugate multiplication, phase-based Doppler
@@ -176,32 +167,6 @@ During the velocity experiment, the target was manually moved toward and away fr
 
 ![Physical Hardware Setup](results/hardware_setup.jpg)
 
-
-## Repository Structure
-
-```text
-SDR-Radar-Velocity-Distance/
-│
-├── src/
-│   ├── Doppler.py
-│   ├── Doppler_epy_block_0.py
-│   ├── Doppler_epy_block_1.py
-│   ├── options_0.py
-│   └── options_0_epy_block_0_1.py
-│
-├── flowgraphs/
-│   ├── R1_Velocity_Determination.grc
-│   └── R2_Distance_Measurement.grc
-│
-├── results/
-│   └── hardware_setup.jpg
-│
-├── docs/
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-
 ## Results
 
 The velocity measurement experiment demonstrates real-time Doppler-based velocity estimation using the physical ADALM-Pluto SDR setup.
@@ -229,3 +194,28 @@ Abishek R
 Karthick B
 Nivas G
 Veankata Krishnan S M
+## Repository Structure
+
+```text
+SDR-Radar-Velocity-Distance/
+│
+├── src/
+│   ├── Doppler.py
+│   ├── Doppler_epy_block_0.py
+│   ├── Doppler_epy_block_1.py
+│   ├── options_0.py
+│   └── options_0_epy_block_0_1.py
+│
+├── flowgraphs/
+│   ├── R1_Velocity_Determination.grc
+│   └── R2_Distance_Measurement.grc
+│
+├── results/
+│   └── hardware_setup.jpg
+│
+├── docs/
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+
