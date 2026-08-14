@@ -165,7 +165,7 @@ The two antennas are connected to the same ADALM-Pluto SDR, with one antenna use
 
 During the velocity experiment, the target was manually moved toward and away from the antenna setup. The reflected signal was received by the RX antenna and processed to estimate the Doppler frequency and corresponding target velocity.
 
-![Physical Hardware Setup](results/hardware_setup.jpg)
+![Physical Hardware Setup](results/hardware_setup.png)
 
 ## Results
 
