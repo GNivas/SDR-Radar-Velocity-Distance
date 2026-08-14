@@ -112,7 +112,7 @@ The FMCW processing pipeline is:
 
 ### Velocity Estimation Flowgraph
 
-![Velocity Flowgraph](results/Velocity_flowgraph.png)
+![Velocity Flowgraph](results/Velcoity_flowgraph.png)
 
 The velocity-processing chain performs signal generation,
 frequency shifting, conjugate multiplication, phase-based Doppler
